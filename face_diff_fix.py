@@ -94,10 +94,22 @@ while True:
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
 
     # 성공 메시지를 표시할 시간이 되면 화면 상단에 표시
-    if all(name != "Unknown" for name in face_names) and start_time is not None and time.time() - start_time >= 15:
-        success_time = time.time()
+    if all(name == face_names[0] for name in face_names) and start_time is not None and time.time() - start_time >= 5:
         cv2.putText(frame, "Success!", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-        # success 메시지가 표시된 시간을 저장
+
+    if all(name == face_names[0] for name in face_names) and start_time is not None and time.time() - start_time >= 7:
+        # success_time = time.time() # success 메시지가 표시된 시간을 저장
+        # print("success time:",success_time)
+        print("face:",name)
+        break
+
+    # if "Success!" in frame:
+    #     success_time = time.time()  # Success!가 표시된 시간 기록
+
+    # # Success! 메시지가 화면에 표시되어 있고, 2초가 경과하면 종료
+    # if success_time is not None and time.time() - success_time >= 2:
+    #     print("name: ",name)
+    #     break
 
     if all(name == "Unknown" for name in face_names):
         start_time = None
@@ -106,13 +118,14 @@ while True:
     cv2.putText(frame, "face recognition", (10, frame.shape[0] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255),
                 1)
 
-    if success_time is not None and time.time() - success_time >= 2:
-        break
+    #  # Success! 메시지가 표시된 후 2초가 경과하면 종료
+    # if success_time is not None and time.time() - success_time >= 2:
+    #     break
 
     # 화면에 보여줌
     cv2.imshow('Video', frame)
 
-    # Success! 메시지가 표시된 후 2초가 경과하면 종료
+
 
 
     # q누르면 종료
