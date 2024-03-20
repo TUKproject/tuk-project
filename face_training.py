@@ -24,6 +24,6 @@ for person in train_dir:
             continue
 
 
-# 훈련된 모델 저장
+# 등록된 저장
 np.save('known_face_encodings.npy', known_face_encodings)
 np.save('known_face_names.npy', known_face_names)
