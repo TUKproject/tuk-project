@@ -1,6 +1,5 @@
 import os
 import face_recognition
-from sklearn import svm
 import numpy as np
 
 # 학습할 디렉토리 설정
@@ -24,9 +23,6 @@ for person in train_dir:
         else:
             continue
 
-# SVC 분류기 생성, 훈련
-clf = svm.SVC(gamma='scale')
-clf.fit(known_face_encodings, known_face_names)
 
 # 훈련된 모델 저장
 np.save('known_face_encodings.npy', known_face_encodings)

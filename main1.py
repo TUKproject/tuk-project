@@ -3,7 +3,7 @@ import numpy as np
 import face_recognition
 import time
 
-# 훈련된 모델 불러오기
+# 저장된 리스트 불러오기
 known_face_encodings = np.load('known_face_encodings.npy')
 known_face_names = np.load('known_face_names.npy')
 
