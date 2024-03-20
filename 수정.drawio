@@ -1,9 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T04:35:31.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="zVUiuc4AYPoIYz_qCxdZ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T05:17:53.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="tielERVt7gSnuGg9f3ay" version="24.0.7" type="github">
   <diagram name="페이지-1" id="cVkGqJgbz8isUfyHQbIr">
-    <mxGraphModel>
+    <mxGraphModel dx="4052" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4EKOW522FUMu7rKATV5h-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="15" width="610" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-3" value="얼굴인식" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- 얼굴 인식 버튼&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-3">
+          <mxGeometry x="10" y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;복장검사&lt;/font&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- 얼굴 인식을 완료했을 때 활성화되는 복장 검사 버튼&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-5">
+          <mxGeometry x="10" y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-7" value="&amp;lt;web&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;관리자 로그인&lt;/font&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- 관리자 아이디와 비밀번호를 입력했을 때 로그인&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-8">
+          <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-10" value="사용자 등록" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- 새로운 사용자들을 등록하는 버튼&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-10">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-12" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;사용자 정보조회&lt;/font&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- DB의 사용자 정보 테이블에서 조회&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-12">
+          <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-14" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;출입기록 확인&lt;/font&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- DB의 출입 정보 테이블에서 조회&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-14">
+          <mxGeometry x="10" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-16" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-5" target="4EKOW522FUMu7rKATV5h-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="300" as="sourcePoint" />
+            <mxPoint x="570" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-8" target="4EKOW522FUMu7rKATV5h-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="310" as="sourcePoint" />
+            <mxPoint x="370" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-18" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-12" target="4EKOW522FUMu7rKATV5h-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="640" width="720" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-21" value="얼굴인식기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;카메라에 들어온 사용자의 얼굴을 인식해 정보를 확인 후 서버에 전달&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-21">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-23" value="복장검사기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="840" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;얼굴인식 단계 진행 후 보안경,실험복,장갑을 웹캠을 통해 인식&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-23">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-25" value="H/W 통신기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="970" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-26" value="얼굴 이미지 촬영기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="710" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;사용자 등록을 위해 웹캠을 통해 얼굴을 촬영&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-26">
+          <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-28" value="얼굴 이미지 학습기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="840" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;등록되어 있는 인물들의 이미지를 학습&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-28">
+          <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-30" value="사용자 등록기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="970" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-31" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;얼굴 촬영 후 이미지 저장, 데이터베이스에 사용자 정보 등록&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-30">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-32" value="&amp;nbsp;DB 조회기능" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="710" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-33" value="&amp;lt;server&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="640" width="470" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-35" value="사용자 정보" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="710" width="190" height="90" as="geometry">
+            <mxRectangle x="970" y="710" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-36" value="&lt;ul&gt;&lt;li&gt;ID&lt;/li&gt;&lt;li&gt;이름&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="4EKOW522FUMu7rKATV5h-35">
+          <mxGeometry y="20" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-37" value="출입정보" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="840" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-38" value="관리자 정보" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="710" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-39" value="&lt;ul&gt;&lt;li&gt;ID&lt;/li&gt;&lt;li&gt;PW&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="730" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-40" value="&lt;ul&gt;&lt;li&gt;출입일자&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="970" y="860" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-42" value="&amp;lt;DB&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="980" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.423;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-20" target="4EKOW522FUMu7rKATV5h-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="590" as="sourcePoint" />
+            <mxPoint x="670" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.003;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-20" target="4EKOW522FUMu7rKATV5h-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="590" as="sourcePoint" />
+            <mxPoint x="670" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-47" value="" style="endArrow=none;html=1;rounded=0;exitX=0.001;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4EKOW522FUMu7rKATV5h-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510.15999999999985" y="1203.57" as="sourcePoint" />
+            <mxPoint x="-160" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DB의사용자 정보, 출입 정보 테이블 조회&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="715" width="550" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-41" value="&amp;lt;H/W: 라즈베리파이&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="715" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-43" value="웹서버 모듈" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="775" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- HTTP 요청을 처리하고, 클라이언트로부터 받은 요청을 처리하여 적절한 응답 반환&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4EKOW522FUMu7rKATV5h-43">
+          <mxGeometry x="5" y="35" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;솔레노이드 모터 제어 모듈&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="775" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-48" value="GPIO 제어 모듈" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="915" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-51" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- 솔레노이드 모터를 켜고 끄는 기능을 구현&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="810" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4EKOW522FUMu7rKATV5h-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;- GPIO 제어 모듈과 연계하여 솔레노이드 모터를 제어&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="945" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
