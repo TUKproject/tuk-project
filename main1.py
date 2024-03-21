@@ -51,7 +51,7 @@ while True:
     if all(name == face_names[0] for name in face_names) and start_time is not None and time.time() - start_time >= 5:
         cv2.putText(frame, "Success!", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-
+    #종료 조건
     if (all(name == face_names[0] for name in face_names) and start_time is not None and time.time() - start_time >= 7):
         # success_time = time.time() # success 메시지가 표시된 시간을 저장
         # print("success time:",success_time)
