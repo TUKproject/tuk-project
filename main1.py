@@ -48,6 +48,7 @@ while True:
         font = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(frame, name, (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
 
+    #5초 후 sucess 텍스트가 웹캠 화면에 뜸
     if all(name == face_names[0] for name in face_names) and start_time is not None and time.time() - start_time >= 5:
         cv2.putText(frame, "Success!", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 

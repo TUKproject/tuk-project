@@ -24,6 +24,6 @@ for person in train_dir:
             continue
 
 
-# 등록된 얼굴, 이름 리스트 저장
+# 등록된 얼굴, 이름 리스트를 .npy 파일로 저장
 np.save('known_face_encodings.npy', known_face_encodings)
 np.save('known_face_names.npy', known_face_names)
