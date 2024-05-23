@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        .frame-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-frame100 {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame-frame {
+  top: 386px;
+  left: 1065px;
+  width: 480px;
+  height: 520px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(191, 220, 255, 1);
+}
+
+.frame-frame1 {
+  top: 386px;
+  left: 372px;
+  width: 480px;
+  height: 520px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(191, 220, 255, 1);
+}
+.frame-text02 {
+  top: 229.6666717529297px;
+  left: 112.941162109375px;
+  color: rgba(0, 0, 0, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  border : none;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  background-color: rgba(191, 220, 255, 1);
+}
+.frame-text04 {
+  top: 233px;
+  left: 674px;
+  color: rgba(0, 0, 0, 1);
+  width: 585px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-frame2 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 158px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame-rectangle6 {
+  top: 0px;
+  left: 1px;
+  width: 1919px;
+  height: 158px;
+  position: absolute;
+}
+.frame-text06 {
+
+  color: rgba(0, 0, 0, 1);
+  width: 1920px;
+  height: auto;
+  top: 30px;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.frame-text08 {
+  top: 224.1568603515625px;
+  left: 115.02352905273438px;
+  color: rgba(0, 0, 0, 1);
+  width: 254px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  border : none;
+  background-color: rgba(191, 220, 255, 1);
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="frame-frame100">
+        <div class="frame-frame">
+        <button id="chemical" class="frame-text08">화학 실험실</button>
+        </div>
+        <div class="frame-frame1">
+       <button id="basic" class="frame-text02">기본 실험실</button>
+        </div>
+        <span class="frame-text04">
+          <span>이용하려는 실험실을 선택해주세요.</span>
+        </span>
+        <div class="frame-frame2">
+          <img
+            src="static/images/rectangle61481-9n3c-200h.png"
+            alt="Rectangle61481"
+            class="frame-rectangle6"
+          />
+          <span class="frame-text06">
+            <span>연구실 안전 출입 관리 시스템</span>
+          </span>
+            </div>
+        </div>
+    </div>
+<script>
+    document.getElementById('basic').addEventListener('click', function() {
+    window.location.href = '{{ url_for("basic_opt") }}';
+    });
+    document.getElementById('chemical').addEventListener('click', function() {
+    window.location.href = '{{ url_for("chemical_opt") }}';
+    });
+    </script>
+
+</body>
+</html>

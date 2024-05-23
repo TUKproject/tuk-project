@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<a href="/login">관리자 로그인</a>
+<button id="manager_btn">관리자 페이지</button>
+<button id="start">start</button>
+<script>
+        document.getElementById('start').addEventListener('click', function() {
+            window.location.href = "{{ url_for('start_page') }}";
+        });
+    </script>
+</body>
+</html>

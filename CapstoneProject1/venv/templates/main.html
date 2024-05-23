@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .frame-container {
+          width: 100%;
+          display: flex;
+          overflow: auto;
+          min-height: 100vh;
+          align-items: center;
+          flex-direction: column;
+        }
+        .frame-frame {
+          width: 100%;
+          height: 1080px;
+          display: flex;
+          overflow: hidden;
+          position: relative;
+          align-items: flex-start;
+          flex-shrink: 0;
+          background-color: rgba(255, 255, 255, 1);
+        }
+        .frame-group1 {
+          top: 190px;
+          left: 0px;
+          width: 100%;
+          height: 700px;
+          display: flex;
+          position: fixed;
+          align-items: flex-start;
+          flex-shrink: 1;
+          background-color: rgba(126, 200, 255, 1);
+        }
+        .frame-frame1 {
+          top: 300px;
+          left: 810px;
+          width: 300px;
+          height: 100px;
+          display: flex;
+          position: fixed;
+          align-items: flex-start;
+          flex-shrink: 1;
+          border-radius: var(--dl-radius-radius-radius8);
+          background-color: rgba(191, 220, 255, 1);
+        }
+        .frame-text {
+          color: rgba(0, 0, 0, 1);
+          width: 300px;
+          height: auto;
+          font-size: 36px;
+          align-self: center;
+          font-style: normal;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 600;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .frame-text02 {
+          top: 232px;
+          left: 583px;
+          color: rgba(0, 0, 0, 1);
+          width: 754px;
+          height: auto;
+          position: absolute;
+          font-size: 32px;
+          font-style: Regular;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 400;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .frame-frame2 {
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 190px;
+          display: flex;
+          position: absolute;
+          align-items: flex-start;
+          flex-shrink: 1;
+          background-color: rgba(255, 255, 255, 1);
+        }
+        .frame-text04 {
+          top: 63px;
+          left: 0px;
+          color: rgba(0, 0, 0, 1);
+          right: 0px;
+          width: 650px;
+          height: auto;
+          margin: auto;
+          position: absolute;
+          font-size: 48px;
+          align-self: center;
+          font-style: normal;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 600;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .frame-text06 {
+          top: 129px;
+          left: 1746px;
+          color: rgba(0, 0, 0, 1);
+          width: 174px;
+          height: auto;
+          position: fixed;
+          font-size: 24px;
+          font-style: Regular;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 400;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .frame-frame3 {
+          top: 69px;
+          left: 58px;
+          width: 153px;
+          height: 53px;
+          display: flex;
+          position: fixed;
+          align-items: flex-start;
+          flex-shrink: 1;
+          border-radius: var(--dl-radius-radius-radius8);
+          background-color: rgba(182, 226, 223, 1);
+        }
+        .frame-text08 {
+          color: rgba(0, 0, 0, 1);
+          width: 153px;
+          height: auto;
+          font-size: 24px;
+          align-self: center;
+          font-style: Regular;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 400;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .frame-text10 {
+          left: 708px;
+          color: rgba(0, 0, 0, 1);
+          width: 504px;
+          bottom: 65px;
+          height: auto;
+          margin: auto;
+          position: absolute;
+          font-size: 36px;
+          align-self: flex-end;
+          font-style: normal;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 300;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+        .logout-button {
+          top: 69px;
+          left: 58px;
+          width: 153px;
+          height: 53px;
+          display: flex;
+          position: fixed;
+          align-items: flex-start;
+          flex-shrink: 1;
+          border-radius: var(--dl-radius-radius-radius8);
+          background-color: rgba(182, 226, 223, 1);
+          color: rgba(0, 0, 0, 1);
+          justify-content: center;
+          font-size: 17px;
+          align-self: center;
+          font-style: Regular;
+          text-align: center;
+          font-family: Inter;
+          font-weight: 400;
+          line-height: normal;
+          font-stretch: normal;
+          text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="frame-container">
+    <div class="frame-frame">
+        <div class="frame-group1">
+            <button id="start" class="frame-frame1">
+                <span class="frame-text">
+                    <span>얼굴 인식</span>
+                </span>
+            </button>
+            <span class="frame-text02">
+                <span>&gt;시스템 시작하기</span>
+            </span>
+        </div>
+        <div class="frame-frame2">
+            <span class="frame-text04">
+                <span>연구실 안전 출입 관리 시스템</span>
+            </span>
+<button id="manager_btn" class="frame-text06" onclick="window.location.href='{{ url_for('admin') }}';">
+        <span>관리자 페이지</span>
+    </button>
+            {% if 'username' in session %}
+        <button class="logout-button" onclick="location.href='{{ url_for('logout') }}'">
+            <span>관리자 {{ session.username }} 님<br>Logout</span>
+                </button>
+            {% else %}
+    <!-- 로그인 되지 않은 상태일 때 로그인 링크 표시 -->
+           <div class="frame-frame3">
+    <a href="{{ url_for('login') }}" class="frame-text08">
+        <span>관리자 로그인</span>
+        </a>
+        </div>
+        {% endif %}
+        </div>
+        <span class="frame-text10">
+            <span>한국공학대학교</span>
+        </span>
+
+<!--                <div class="frame-frame1">-->
+<!--                    <img src="../static/images/mainbackground.png" alt="backgroundimg" >-->
+<!--                    <span class="frame-text">-->
+<!--                        <span>연구실의 안전을 책임지는 시스템</span>-->
+<!--                    </span>-->
+<!--                </div>-->
+<!--    <div class="frame-frame2">-->
+<!--        <a href="/login" class="frame-text2">관리자 로그인</a>-->
+<!--    </div>-->
+<!--        <div class="frame-frame3">-->
+<!--            <button id="start" class="frame-text3">start</button>-->
+<!--        </div>-->
+<!--        <button id="manager_btn"  class="frame-text5">관리자 페이지</button>-->
+    </div>
+</div>
+    <script>
+        document.getElementById('start').addEventListener('click', function() {
+            window.location.href = "{{ url_for('start_page') }}";
+        });
+    </script>
+</body>
+</html>
